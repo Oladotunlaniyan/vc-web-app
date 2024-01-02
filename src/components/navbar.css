@@ -1,0 +1,81 @@
+nav{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer ;
+    background:  #000000;
+}
+
+.nav__container{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #000000;
+    /* background: linear-gradient(#00545d, #000729); */
+}
+
+
+.nav__links{
+    display: flex;
+    gap: 2.5rem;
+}
+.nav__links a{
+    color: var(--text-color);
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 30px;
+    transition: all .50s ease;
+}
+
+.nav__links a:hover{
+    transition: var(--transition);
+    color: var(--second-color);
+}
+
+
+.btn-nav{
+    color: var(--second-color);
+    padding: 7px 20px;
+    background: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.side-bar{
+    width: 50px;
+    height: 83vh;
+    position: absolute;
+    background:  #000000;
+    left: 0;
+    /* top: 0; */
+}
+
+.nav__toggle-btn{
+    display: block;
+    width: 25px;
+    outline: none;
+    margin: 25px auto 0;
+    /* text-align: center; */
+    transform: translateY(900%)
+}
+
+.socials{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+    top: 50;
+    transform: translateY(370%);
+}
+
