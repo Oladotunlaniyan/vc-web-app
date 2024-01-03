@@ -6,7 +6,6 @@ import Work from '../../components/Work'
 import Payverter from '../../components/Payverter'
 import Halal from '../../components/Halal'
 import Getstarted from '../../components/Getstarted'
-import Bottom from '../../components/Bottom'
 import './home.css'
 
 

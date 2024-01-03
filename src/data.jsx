@@ -9,7 +9,7 @@ export const links = [
     {
         name: "About",
         path: '/about'
-    },
+    }, 
 ];
 
 export const Btn = [

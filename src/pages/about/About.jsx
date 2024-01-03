@@ -1,8 +1,14 @@
 import React from 'react'
+import Abouthero from '../../components/Abouthero'
+import History from '../../components/History'
+import './about.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Abouthero />
+      <History />
+    </div>
   )
 }
 
