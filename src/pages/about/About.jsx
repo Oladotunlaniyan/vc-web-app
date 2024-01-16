@@ -1,6 +1,7 @@
 import React from 'react'
 import Abouthero from '../../components/Abouthero'
 import History from '../../components/History'
+import Team from '../../components/Team'
 import './about.css'
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
     <div>
       <Abouthero />
       <History />
+      <Team />
     </div>
   )
 }
