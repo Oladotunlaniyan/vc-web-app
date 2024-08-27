@@ -38,7 +38,7 @@ span{
     background: var(--second-color);
     overflow: hidden;
 }
-h3{
+.text-wrapper h3{
     font-size: 20px;
     color: transparent;
     -webkit-text-stroke-width: 0.1px;
